@@ -1,0 +1,1 @@
+<button onClick="location.reload();"> Презареди! </button>

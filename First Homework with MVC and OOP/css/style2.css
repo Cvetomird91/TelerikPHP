@@ -1,0 +1,13 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+th, td, tr {
+    border: 3px white inset;
+}
+
+a:hover {
+	color:maroon;
+	text-decoration: none;
+}
