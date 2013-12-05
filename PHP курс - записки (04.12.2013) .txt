@@ -828,7 +828,11 @@ CodeIgniter e open source.
 При CodeIgniter проектът се поставя в определена директория в CodeIgniter папката. При други шаблони, файловете на шаблона се include-ват в проекта.
 
 MVC - Model Viel Controller
-Model–view–controller (MVC) is a software architecture pattern which separates the representation of information from the user's interaction with it.[1][2] The model consists of application data, business rules, logic, and functions. A view can be any output representation of data, such as a chart or a diagram. Multiple views of the same data are possible, such as a bar chart for management and a tabular view for accountants. The controller mediates input, converting it to commands for the model or view.[3]
+Model–view–controller (MVC) is a software architecture pattern which separates the representation of information from the user's interaction with it.
+[1][2] The model consists of application data, business rules, 
+logic, and functions. A view can be any output representation of data, such as a chart or a diagram.
+Multiple views of the same data are possible, such as a bar chart for management and a tabular view for accountants.
+The controller mediates input, converting it to commands for the model or view.[3]
 http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
 
 00:12:00 CodeIgniter има папки model, view и controller
@@ -1091,4 +1095,4 @@ MVC framework #2 App класа - http://nau4i.me/jupgrade/index.php/php2/59-php
 boostrap - единствения видим от сървъра файл в проекта. 
 CSS и Java Script файловете трябва да са в неговата директория.
 С класа App започва и стартира изпълнението на програмата.
-класа App взима заявката, front controller, 
+класа App взима заявката, front controller.
