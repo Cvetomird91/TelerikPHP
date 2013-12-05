@@ -1,0 +1,9 @@
+
+th, td, tr {
+   border: inset 3px gray;
+}
+
+.authors {
+    width: 300px;
+    height: 280px;
+}
