@@ -170,7 +170,7 @@ echo '1' . '2'. '3';
 
 Ето целият условен оператор когато използваме die:
 
-$connection = new mysqli ('localhost', 'Cvetomird91', 'iwillsucceed', 'gallery') or die ('no database');
+$connection = new mysqli ('localhost', 'username', 'password123', 'gallery') or die ('no database');
 Може и да се използва or, вместо else.
 
 
