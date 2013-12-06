@@ -21,6 +21,8 @@ PHP не е чувствителен към новите редове, а към
 
 $_SERVER['HTTP_USER_AGENT'] - get browser properties.
 
+имплементация - изпълнение
+
 !! PHP е динамичен език, в него няма типове данни.
 
 Използваме за нов ред \n когато нямаме в стринга HTML и <br/> когато имаме.
@@ -94,6 +96,10 @@ shuffle ();
 array_push() - добавя елемент в края на масива.
 
 array_slice(); - извлича част от масива
+
+Видимост на променливите (scope) и предаване по референция - http://nau4i.me/jupgrade/index.php/php2/8-php--/68----scope----
+имплементация - изпълнение
+
 
 ЛЕКЦИЯ II - Въведение в PHP - втора част http://www.youtube.com/watch?v=QcdpqizH70w&feature=c4-overview&list=UULC-vbm7OWvpbqzXaoAMGGw
 
