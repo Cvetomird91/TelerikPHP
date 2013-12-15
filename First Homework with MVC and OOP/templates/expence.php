@@ -9,10 +9,12 @@
         <br/>
 
         <select size="1" name="type">
+        
+        //we display all the types of wares we can select to be submitted
     <?php
    foreach ($types as $key=>$value) {
     echo '<option value="' . $key . '">' . $value . '</option>';
-}
+        }
 
     ?>
 
