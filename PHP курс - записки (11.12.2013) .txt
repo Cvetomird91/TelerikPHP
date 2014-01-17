@@ -698,6 +698,9 @@ $username = new User;
 
 00:19:00 - Singleton
 
+Същността на Singleton шаблона е да забраним даден клас да има повече от една инстанция. Това може да стане като направим 
+__construct () метода private. 
+
 $connection = DB::newInstance();
 $connection2 = DB::newInstance();
 
