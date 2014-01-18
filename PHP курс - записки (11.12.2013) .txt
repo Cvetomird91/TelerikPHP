@@ -718,6 +718,23 @@ $connection2 = DB::newInstance();
 
 $connection == $connection2 в случая.
 
+class Singleton {
+
+	private static $instance = null;
+	
+	private function __construct () {
+	
+	}
+	
+	public function getInstance () {
+		if (self::$instance == null) {
+		 	self::$instance = new Singleton ();
+		}
+		return self::$instance;
+	}
+
+}
+
 00:29:30 - шаблона Registry
 
 Когато използваме регистри, не трябва да го използваме за основната информация на проекта. То се ползва за малка важна информация, която е глобална за
