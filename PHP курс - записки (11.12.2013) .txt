@@ -770,7 +770,8 @@ class Class implements TestInterface {
 
 01:04:00 instanceof
 
-
+Mock-ване - подаване на "фалшив" обект при Unit testing с цел изпробване на продукта. Dependency Injection прави това 
+възможно.
 
 
 !!!!!Информация, която Гатака не е представил в двете лекции за OOП:
