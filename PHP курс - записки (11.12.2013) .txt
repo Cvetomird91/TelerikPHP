@@ -665,12 +665,21 @@ ObjectName::staticMethod();
 
 ObjectName::staticMethod();
 В случая ще направи същото като:
-$instance = new ObjectName();
-$instance->staticMethod();
+$object = new ClassName();
+$object-> staticMethod();
+Можем да викаме статичните методи в PHP и по двата начина. 
 
 Когато използваме статични свойства, трябва да напишем $:
 
 ObejctName::$username;
+
+Можем да викаме константи в ООП по следния начин:
+
+ClassName::constant;
+
+Статичните методи се използват по следния начин:
+
+ClassName::getData();
 
 Не можем да променяме статични свойства. Едно свойство става статично, когато добавим static преди индикатора за видимост.
 
@@ -779,6 +788,7 @@ Mock-ване - подаване на "фалшив" обект при Unit test
 Магическия метод call: http://nau4i.me/jupgrade/index.php/php2/12-oop/265-call-9
 Интерфейси в ООП - http://nau4i.me/jupgrade/index.php/php2/12-oop/269-12
 Абстрактни класове - http://nau4i.me/jupgrade/index.php/php2/12-oop/271-php-oop-abstract-classes
+Декоратор - http://nau4i.me/jupgrade/index.php/php2/12-oop/278--decorator-19
 Проверка на типовете обекти в ООП: http://nau4i.me/jupgrade/index.php/php2/12-oop/272-php-oop-objects-types
 Документация на класове - http://nau4i.me/jupgrade/index.php/php2/12-oop/273-php-oop-documentation-methods-properties
 Try Catch Throw - http://nau4i.me/jupgrade/index.php/php2/12-oop/281-php-oop-try-catch-throw
