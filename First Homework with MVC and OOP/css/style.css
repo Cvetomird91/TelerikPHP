@@ -1,0 +1,8 @@
+th, td, tr {
+    border: grey 3px inset;
+}
+
+a:hover {
+	color:maroon;
+	text-decoration: none;
+}

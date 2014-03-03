@@ -1,0 +1,17 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+th, td, tr {
+    border: inset 3px black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: maroon;
+}
+
+p {
+    font-family: sans-serif;
+}

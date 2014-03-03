@@ -1,0 +1,3 @@
+VIEW частта ми е в папката templates, a бизнес логиката - във файловете в папката includes. 
+
+Въведете регистрацията и паролата си за PHPmyAdmin в includes/connection.php.

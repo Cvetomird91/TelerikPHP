@@ -1,0 +1,17 @@
+body {
+	background-color: black;
+	color:white;
+}
+
+a:hover {
+	color:maroon;
+	text-decoration: none;
+}
+
+div {
+	margin: 10px 20px;
+}
+
+th, tr, td {
+	border: 3px white inset;
+}
