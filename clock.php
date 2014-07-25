@@ -3,7 +3,6 @@
 
 <?php
 
-# some useful funcitons: getdate, strftime, printf and explode
 
 date_default_timezone_set('Europe/Sofia');
 
@@ -12,10 +11,6 @@ if ($_GET) {
 $request = array_keys ($_GET);
 
 $get = explode (':', $request[0]);
-
-# TO DO:  check if the quantities of $font-color and $background match 
-# the colors which can be assigned to HTML elements with CSS
-# with words
 
 } 
 
